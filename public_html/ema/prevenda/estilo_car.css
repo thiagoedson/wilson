@@ -1,0 +1,161 @@
+#painel_botton {
+	position:fixed;	
+	top:0;
+	width:100%;
+	height:55px;
+	padding-top:5px;	
+	color:#FFF;}
+.email {
+	display:block;
+	width:100px;	
+	float:right;
+	margin-right:105px;
+}
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------RESET--------------------*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; outline: none;}
+
+html{background:#ccc;}
+
+body{line-height:1; font-size:62.5%; background:#ccc; font-family:Arial, Helvetica, sans-serif;} /*---- 1.0 em = 10px---*/
+
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+
+p{font-size:1.3em; line-height:1.8em; margin-bottom:10px;}
+
+a{text-decoration:none; color:#333; font-size:1.2em;}
+
+/*----------------------RESET--------------------*/
+
+.global-div{width:900px; height:auto; padding:0 15px 15px 15px; position:absolute; float:none; left:50%;  margin:5px 0 0 -470px ; border:5px solid #fff; background:#fff; box-shadow:0 0 5px #999; -moz-box-shadow:0 0 5px #999; -webkit-box-shadow:0 0 5px #999; }
+
+h1{font:italic bold 4em Georgia, "Times New Roman", Times, serif; text-align:center; margin: -5px -20px 20px -20px; background:#111; color:#fff; padding:20px 10px; letter-spacing:-0.04em; text-shadow:0px 0px 5px #eaeaea;}
+
+h2{font:bold  Georgia, "Times New Roman", Times, serif; font-size:14pt;}
+
+ul{list-style:none; padding-left:10px;}
+
+.abas li{float:left; border:1px solid #ccc; border-bottom:0; margin-right:10px; padding:10px; border-top-left-radius:5px; border-top-right-radius:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; -webkit-border-radius-topleft:5px; -webkit-border-radius-topright:5px; }
+
+.abas li:hover{box-shadow:0 -2px 3px #DFDFDF; -moz-box-shadow:0 -2px 3px #DFDFDF; -webkit-box-shadow:0 -2px 3px #DFDFDF; font-weight:bold; border-color:#c0c0c0;}
+
+.ativo{background:#ccc!important; border-color:#333;}
+
+.ativo a{color:#fff; font-weight:bold; text-shadow:0 0 5px #999;}
+
+#noticia{position:relative; width:880px; height:auto; padding:10px; clear:both; border:1px solid #ccc; -moz-box-shadow:0 -1px 3px #ccc;}
+
+#noticia div{display:none;}
+
+.credito{font-size:1.1em; position:absolute; right:0; bottom:-40px; margin-top:15px;}
+
+.credito a{font-size:1.1em;}
+
+.link1 {	
+	background:#CF9;
+	color:#333;
+	width:100px;
+	padding:4px;
+	border-style:inset;
+	border-radius:6px;
+	border-width:1px;
+	}
+.m2brdialogpedido {	
+	background:#F00;
+	color:#FFF;	
+	padding:4px;
+	border-radius:6px;}
+.link3 {	
+	background:#06F;
+	color:#FFF;	
+	padding:4px;
+	border-radius:6px;}
+.m2brdialog-pergunta {	
+	background:#F60;
+	margin-left:100px;
+	color:#FFF;	
+	padding:4px;
+	border-radius:6px;}
+.car_table {
+	width:100%;
+	font-size:90%;
+	text-align:center;
+	}
+.estilo_img {
+	border-radius:8px;
+	-moz-box-shadow:0 -2px 3px #DFDFDF; 
+	-webkit-box-shadow:0 -2px 3px #DFDFDF;}
+.car_vazio {
+	font-size:14pt;
+	padding:8px;
+	border-radius:6px;
+	background-color:#F00;}
+	
+.geral {
+	display:block;
+	color:#999;	
+	margin-left:20px;
+	float:left;}
+
+.gerall {
+	display:block;
+	width:100px;
+	float:left;}
+	
+.bubbleInfo {
+    position: relative;
+}
+
+.popup {
+    position: absolute;
+    display: none; /* keeps the popup hidden if no JS available */
+}
+.menos {
+	color:#999;
+}
+
+#texto_desc {
+	position:absolute;
+	display:block;
+	top:150px;
+	left:430px;
+	height:40px;
+	width:420px;
+	text-align:center;
+	font-size:10pt;
+	border-radius:6px;
+	background-color:#3CF;
+	padding:20px;
+}
+#texto_desc_esp {
+	position:absolute;
+	display:block;
+	top:230px;
+	left:430px;
+	height:40px;
+	width:420px;
+	text-align:center;
+	font-size:10pt;
+	border-radius:6px;
+	background-color:#9FF;
+	padding:20px;
+}
+
+
+#bruto {
+	background-color:#FFC;
+	width:230px;
+	height:200px;
+	padding:6px;
+	font-size:10pt;
+	
+	}
+
+.tama {
+	width:100px;
+	border:none;}

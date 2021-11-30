@@ -1,0 +1,771 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <ul><li><a href="#"><span>level 3</span></a></li></ul>
+ *                  </li>
+ *              </ul>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+
+body {
+	background-color:#000;
+}
+.titil {
+	font-size:20pt;
+	color:#666;
+	
+}
+
+.pass_sen {
+	color:#FFF;
+	}
+.pass_sen:hover {
+	color:#000;
+	background-color:#FF0;}
+#totalconta {
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: 0;
+	height: auto;
+	width: 900px;
+	}
+	
+a:visited {
+	color:#000;}
+a {
+	color:#000000;}
+
+div#menu {
+	background: transparent url(images/menu_m.png) repeat-x scroll 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #FFFFFF;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;	
+}
+
+ul.menu {
+	clear: both;
+	float: none;
+	cursor: pointer;
+	z-index: 1;
+	position: relative;
+}
+
+#location {
+	position: absolute;
+	left: 553px;
+	top: 249px;
+	width: 160px;
+	height: 116px;
+	background-color: #FFFFFF;
+	background-image: url(images/logo_location.jpg);
+}
+
+div#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+
+div#menu li {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	overflow: visible;
+	float: left;  
+	height: 30px;
+	z-index: 3;
+}
+#lix {
+	position: absolute;
+	left: 553px;
+	top: 367px;
+	width: 160px;
+	height: 111px;
+	background-color: #FFFFFF;
+	background-image: url(images/logo_pedidos.jpg);
+}
+/* menu::level1 */
+div#menu li a {
+	height: 30px;
+	display: block;
+	float: left;
+	line-height: 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+	overflow: hidden;
+	z-index: 4;
+  position: relative;
+}
+
+div#menu li span {  
+	color: #FFFFFF; 
+	display: block;
+	padding: 0 15px;
+  background-repeat: no-repeat;
+	background-position: 95% 0px;
+	z-index: 6;
+	position: relative;
+}
+
+div#menu li span.bg { 
+	display: block;
+  background: transparent url('images/menu_level1_item.png') repeat-x scroll 0pt 100%;
+  padding: 0;
+	height: 30px;
+	z-index: 5;
+	position: relative;
+  float: left;
+}
+
+div#menu li.current {  
+	font-weight: bold;
+}
+
+div#menu li.current ul {  
+	font-weight: normal;
+}
+
+.banner_wide {
+	position: absolute;
+	top: 140px;
+	left: 0;
+	width: 510px;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+/* menu::level2 */
+div#menu ul.menu ul {
+	padding: 0px 0px 10px;
+	background: transparent url('images/menu_dropdown_bg.png') no-repeat scroll 0pt 100%; 
+	_background: transparent url('images/menu_dropdown_bg.gif') no-repeat scroll 0pt 100%;	
+	left: -999em; 
+	width: 165px;
+	position: absolute;
+	top: 30px;
+}
+
+div#menu li:hover ul, div#menu li.sfhover ul { 
+	left: 0px; 
+	z-index: 100;
+	visibility: visible; 
+}
+
+div#menu li li { 
+	width: 100%; 
+	text-indent: 0px;
+	float: none; 
+	height: auto;
+}
+
+div#menu li li a, div#menu li li span.separator { 
+	margin: 0px 1px;
+	padding: 0px; 
+	background: url('images/menu_level2_item.gif') no-repeat scroll 100% bottom;
+	height: auto; 
+	float: none; 
+	display: block; 
+	line-height: 25px; 
+	width: 180px;
+}
+.estilo1:hover {
+	background-color:#0F6;}
+
+div#menu li li a.parent { 
+	background: url('images/menu_level2_item_parent.gif') no-repeat scroll 100% bottom;
+}
+
+/* menu::level3 */
+div#menu li ul ul { 
+	margin: -31px 0 0 164px;
+}
+
+div#menu li:hover ul ul, div#menu li.sfhover ul ul { 
+	border-top: 1px solid #1E1E1E; 
+}
+
+div#menu li:hover ul ul, div#menu li.sfhover ul ul, div#menu li:hover ul ul ul, div#menu li.sfhover ul ul ul, div#menu li:hover ul ul ul ul, div#menu li.sfhover ul ul ul ul { 
+	left: -999em; 
+}
+div#menu li li:hover ul, div#menu li li.sfhover ul, div#menu li li li:hover ul, div#menu li li li.sfhover ul, div#menu li li li li:hover ul, div#menu li li li li.sfhover ul { left: 0pt; z-index: 100; }
+
+div#menu a:hover {
+	color: #FFFFFF;
+}
+div#menu span:hover {
+	color: #FFFFFF;
+}
+div#menu li ul span:hover {
+	color: #FFFFAA;
+}
+
+#container {
+	position:relative;
+	margin:auto;
+	width:1000px;}
+	
+*{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:8pt;
+	}
+
+#update {
+	position:absolute;
+	width:600px;
+	background-color:#FFF;
+	top: 50px;
+	padding: 20px;
+	border-radius:8px;
+}
+
+table, tr, td {
+	font-size:7pt;}
+	
+.hoverrer:hover {
+background-color:#9F6;!important
+}
+
+a, a:visited {
+	text-decoration:none;
+	}
+a:hover {
+	color:#F00;}
+	
+label {
+	background-color:#FFF;
+	display:block;
+	width:300px;
+	border:double;
+	border-top:none;
+	border-color:#F90;
+	height:15px;
+	padding:2px;
+	margin-left:10px;
+	float:left;
+}
+
+.label {
+	background-color:#FF9;
+	display:block;
+	width:300px;
+	border:double;
+	border-bottom:none;
+	border-color:#F90;
+	height:15px;
+	padding:2px;
+	margin-left:10px;
+	float:left;
+}
+.rotulo {
+	width:80px;
+	height:50px;
+	background-color:#FFF;
+	text-align:center;
+	display:block;
+	float:left;
+	border:none;
+	margin:8px;}
+
+.form_select {
+	display:block;
+	width:300px;
+	height:20px;
+	margin:9px;
+}
+
+#lista_pedidos {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	}
+	
+#bt_atua {
+	position: absolute;
+	left: 300px;
+	top: 150px;
+	width: 180px;
+	height: 22px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: thin;
+	border-color: #000000;
+	text-align: center;
+	font-size: 10pt;
+	padding: 6px 0 0 0;
+
+}
+
+#bt_atua:hover {
+
+	opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);}
+#formulario01 {
+	position:absolute;
+	left:0;
+	top:90px;
+	width:860px;
+	height:489px;
+	background-color: #FFFFFF;
+	text-align:center;
+	padding:20px;
+}
+
+#p_artigos {
+	position:absolute;
+	left:0;
+	top:100px;
+	width:100%;
+	height:auto;
+	background-color: #FFF;
+	text-align:center;	
+	padding:10px;
+}
+
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 8pt;
+}
+
+#pesquisa {
+	position: absolute;
+	left: 0;
+	top: 55px;
+	width: 690px;
+	height: 24px;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding-top: 5px;
+	padding: 10px;
+}
+
+#container {
+	position: relative;
+	margin: auto;
+	width: 900px;
+	left: 0;
+}
+
+.resultado_search {
+	text-align:center;
+	width:80%;
+	background-color:#FFFFFF;
+	margin-bottom:100px;
+	}
+.tr_resultado_search {
+	background-color:#BBBBBB;
+	padding:10px;
+	font-size:12pt;
+	margin-bottom:100px;
+	}
+.tr_resultado_search td {
+	padding:10px;
+	font-size:9pt;}
+
+.item01 {
+	text-align:right;
+	right:590px;
+	position:absolute;}
+.car_table {
+	text-align:center;
+	border:outset;
+	}
+
+
+#campo22 {
+	position: absolute;
+	left: 0px;
+	top: 249px;
+	width: 510px;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+#campo23 {
+	position:absolute;
+	left:0px;
+	top:180px;
+	width:600px;
+	height:auto;
+}
+
+#campo33 {
+	position: absolute;
+	left: 0px;
+	top: 45px;
+	width: 600px;
+	height: 350px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.bt_xls {
+	padding:10px;
+	display:block;
+	margin:10px;
+	border-style:inset;
+	border-color:#000000;
+	height:15px;
+	width:180px;
+	}
+	
+.bt_xls:hover {
+	background-color:#FF3A3A;
+	color:#FFF;
+	}
+	
+.item02 {
+	text-align:right;
+	right:720px;
+
+	margin-top:0;}
+	
+#info {
+	padding:3px;}
+	
+#faixa {
+	width:100%;
+	height:30px;
+	background-image:url(images/menu_m.png);
+	background-repeat:repeat-x;
+	margin-top:0;
+	float:left;
+	}
+#upload_1 {
+	position:absolute;
+	width:600px;
+	height:300px;
+	background-color:#FFF;
+	top:150px;
+	padding:50px;
+	border-radius:8px;
+	background-image:url(images/port_1.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	text-align:center;}
+.verde {
+	padding:10px;
+	border-radius:6px;
+	background-color:#0F9;
+	font-style:italic;}
+.red {
+	padding:10px;
+	border-radius:6px;
+	background-color:#F00;
+	font-style:italic;
+	color:#FFF;
+	font-weight:bold;
+	font-size:16pt;}
+	
+.pedido_ss13 {
+	background-image:url(images/npedido.png); 
+	width:75px; 
+	display:block;
+	height:20px;
+	color:#000;
+	text-align:center;
+	vertical-align:middle;
+	}
+	
+.texto_12 {
+	margin-left:260px;
+	width:auto;
+	}
+.texto_15 {
+	position:absolute;
+	width:200px;
+	text-align:center;
+	margin-right:0;
+	display:compact;
+	background-color:#FC6;
+	}
+.texto_15:hover {
+	background-color:#000;
+	color:#FFF;}
+.texto_13 {
+	font-weight:bold;
+	margin-left:210px;
+	position:absolute;
+	}
+.texto_14 {
+	display:block;
+	width:100%;
+	border:inset;
+	border-width:1px;	
+	}
+.texto_14:hover {
+	background-color:#6CF;	
+	}
+.inativo {
+	color:red;
+	float:right;}
+.titulo {
+	padding:10px;
+	margin:8px;
+	border-radius:3px;
+	background-color:#F63;
+	width:200px;
+	}
+#campo_novo {
+	position:absolute;
+	top: 150px;
+	right: 0;
+	bottom: 0;
+	left: 15%;
+	margin: auto;
+	margin-bottom:150px;
+	}
+	
+#campo_novo_2 {
+	position:relative;
+	padding:10px;
+	background-color:#CCC;
+	width:920px;
+	height:700px;}
+#campo_novo_3 {
+	position: relative;
+	top: 50px;
+	padding: 10px;
+	left: 0;
+	width: 800px;
+	height: auto;
+	}
+.estilo1 {
+	background-color:#FFF;
+	color:#000;}
+
+.estilo2 {	
+	padding:2px;
+	margin-left:5px;
+	font-size:8pt;
+	color:#666;
+	width:auto;
+	border-style:none;
+	}
+
+#pedidos_excluidos {
+	position: absolute;
+	left: 0;
+	top: 150px;
+	width: 100%;
+	height: 286px;
+	background-color: #FFFFFF;
+}
+
+.laranja {
+	color:#F90;
+	font-weight:100;}
+.vermelho {
+	color:#F00;
+	font-weight:100;}
+.azul {
+	color:#00F;
+	font-weight:100;}
+.verde_e {
+	color:#090;
+	font-weight:100;}
+	
+.sem {
+	color:#63C;
+	font-weight:100;}
+.suspeito {	
+	background-color:#F00;
+	color:#FFF;
+}
+.normal {	
+	background-color:#FFF;
+	color:#000;
+}
+.normal:hover {	
+	background-color:#9F3;
+	
+}
+.suspeito:hover {	
+	background-color:#9F3;
+	
+}
+
+
+ul.tabs {
+	display: block;
+	margin-bottom: 0;
+	padding: 4px 0 0 1px;
+	height: 40px;
+	list-style: none;
+}
+
+ul.tabs li {
+	float: left;
+	height: 40px;
+	font-family:Verdana;
+}
+
+ul.tabs li a {
+	display: block;
+	margin: 0 0 0 -1px;
+	height: 39px;
+	padding: 0px 10px;
+	line-height: 40px;
+	border: 1px solid #ddd;
+	border-width: 1px 1px 0 1px;
+	color: #333;
+	background: #fff;
+	font-size: 12px;
+	text-decoration: none;
+	outline:none;
+}
+
+ul.tabs li.active a {
+	position: relative;
+	height: 40px;
+	top: -5px;
+	padding-top: 4px;
+	background: #fafafa;
+	border-bottom: 1px solid #fafafa;
+	color: #111;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.tab_container {
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 24px;
+}
+
+
+.tab_container .fin {
+	margin-top: 0;
+}
+
+.fin {
+	display: block;
+	padding: 10px 20px;
+	margin: 0 0 0;
+	border: 1px solid #ddd;
+	background:#fafafa
+}
+
+
+#totalconta {
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: 0;
+	height: auto;
+	width: 900px;
+	}
+
+.fin {
+	padding:20px;}
+.tabela {
+	display:block;
+	margin:10px;
+	background-color:#FFF;
+	padding:10px;
+	}
+
+#group {
+	position: absolute;
+	left: 590px;
+	top: 75px;
+	width: 180px;
+	height: 90px;
+	color: #000;
+}
+#group2 {
+	position: absolute;
+	left: 590px;
+	top: 210px;
+	width: 200px;
+	height: 180px;
+	color: #000;
+}
+
+.botao_perfil {
+	width:80px;
+	color:#FFF; 
+	height:30px; 
+	padding:8px;
+	background-color:#09F;
+	border:none; 
+	margin:8px;
+	}
+.botao_perfil:hover {
+	background-color:#F60;
+	} 
+#arte_gra {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	background-color: #FFF;
+	height: 500px;
+	width: 100%;
+	}
+.pagi {	
+	padding:8px;
+	background-color:#FC0;
+	margin:2px;
+	}
+.pagi:hover {
+	background-color:#06F;
+	color:#EEE;}
+#caixa_pag {
+	display:block;
+	padding:20px;
+	margin-top:20px;
+}
+.pri_linha {
+	background-color:#FC0;
+	height:30px;}
+.liberado {
+	background-color:#093;
+	color:#FFF;
+	display:block;
+	padding:2px;}
+.negado {
+	background-color:#F00;
+	color:#FFF;
+	display:block;
+	padding:2px;}
+.nlista {
+	text-align:center;
+	background-color:#FC3;
+	color:#000;
+	display:block;
+	padding:2px;}
+
+#container #totalconta .tab_container .fin #group2 fieldset span a:hover {
+	color: #000;

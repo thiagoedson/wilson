@@ -1,0 +1,613 @@
+[22-Jul-2015 16:49:50] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:49:50] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:49:50] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:49:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:49:50] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 16:49:50] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 16:49:50] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[22-Jul-2015 16:49:50] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[22-Jul-2015 16:50:15] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:50:15] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:50:15] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:50:15] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 16:50:15] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 16:50:15] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 16:50:15] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[22-Jul-2015 16:50:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[22-Jul-2015 16:53:18] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[22-Jul-2015 16:53:24] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[22-Jul-2015 17:39:07] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:07] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:07] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:07] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 17:39:07] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 17:39:07] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[22-Jul-2015 17:39:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[22-Jul-2015 17:39:19] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:19] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:19] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[22-Jul-2015 17:39:19] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 17:39:19] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[22-Jul-2015 17:39:19] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[22-Jul-2015 17:39:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[22-Jul-2015 20:13:07] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 3 given in /home/rbkne024/public_html/adi/atua_site_sql.php on line 26
+[23-Jul-2015 08:06:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[23-Jul-2015 11:08:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[23-Jul-2015 11:17:12] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 3 given in /home/rbkne024/public_html/adi/atua_site_sql.php on line 26
+[23-Jul-2015 11:30:30] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[23-Jul-2015 11:30:30] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[23-Jul-2015 11:30:30] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[23-Jul-2015 11:30:30] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[23-Jul-2015 11:30:30] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[23-Jul-2015 11:30:30] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[23-Jul-2015 11:30:30] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[23-Jul-2015 11:30:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[23-Jul-2015 12:40:57] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[23-Jul-2015 12:40:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[23-Jul-2015 12:41:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[23-Jul-2015 12:41:01] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[23-Jul-2015 12:59:12] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[23-Jul-2015 16:24:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[23-Jul-2015 17:33:41] PHP Fatal error:  Cannot redeclare salvalog() (previously declared in /home/rbkne024/public_html/adi/conexao.php:82) in /home/rbkne024/public_html/adi/conexao.php on line 100
+[23-Jul-2015 17:33:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/function.php on line 19
+[24-Jul-2015 02:17:25] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[24-Jul-2015 10:01:14] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[24-Jul-2015 10:01:14] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[24-Jul-2015 10:18:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[24-Jul-2015 10:18:08] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[24-Jul-2015 10:18:08] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[24-Jul-2015 14:04:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[24-Jul-2015 15:01:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[24-Jul-2015 16:38:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[24-Jul-2015 16:40:00] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[24-Jul-2015 16:41:03] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[24-Jul-2015 16:42:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[24-Jul-2015 19:53:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[25-Jul-2015 10:36:48] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[25-Jul-2015 12:17:50] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[25-Jul-2015 12:17:50] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[26-Jul-2015 22:37:47] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[27-Jul-2015 08:15:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[27-Jul-2015 09:01:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[27-Jul-2015 09:02:51] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[27-Jul-2015 09:02:51] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[27-Jul-2015 09:02:51] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[27-Jul-2015 09:02:51] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[27-Jul-2015 09:02:51] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[27-Jul-2015 09:02:51] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[27-Jul-2015 09:02:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[27-Jul-2015 09:02:51] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[27-Jul-2015 09:18:58] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[27-Jul-2015 09:36:12] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[27-Jul-2015 13:03:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[27-Jul-2015 14:47:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[27-Jul-2015 15:39:12] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[27-Jul-2015 15:45:51] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/atua_site.php on line 44
+[27-Jul-2015 17:21:34] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[27-Jul-2015 17:21:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[27-Jul-2015 19:52:47] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[27-Jul-2015 19:52:47] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[28-Jul-2015 08:13:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[28-Jul-2015 10:59:49] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[28-Jul-2015 10:59:49] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[28-Jul-2015 13:11:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[28-Jul-2015 14:31:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[28-Jul-2015 17:36:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[28-Jul-2015 17:45:50] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 32
+[28-Jul-2015 17:47:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[28-Jul-2015 19:50:19] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[28-Jul-2015 19:51:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[28-Jul-2015 19:52:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[28-Jul-2015 19:52:33] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[29-Jul-2015 08:25:32] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[29-Jul-2015 11:13:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[29-Jul-2015 11:13:33] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[29-Jul-2015 12:36:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[29-Jul-2015 13:00:00] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[29-Jul-2015 14:24:42] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[29-Jul-2015 14:24:42] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[29-Jul-2015 14:36:21] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[29-Jul-2015 14:36:21] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[29-Jul-2015 15:43:11] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[29-Jul-2015 16:02:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[29-Jul-2015 16:02:40] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[29-Jul-2015 16:02:41] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[29-Jul-2015 17:25:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[29-Jul-2015 20:27:50] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/perfil.php on line 88
+[30-Jul-2015 01:33:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[30-Jul-2015 01:47:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[30-Jul-2015 08:20:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[30-Jul-2015 09:34:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 09:35:00] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 10:32:38] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[30-Jul-2015 10:32:38] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[30-Jul-2015 11:16:13] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 13:04:54] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[30-Jul-2015 14:28:08] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 15:15:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[30-Jul-2015 16:28:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[30-Jul-2015 17:54:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[30-Jul-2015 19:00:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/perfil.php on line 88
+[30-Jul-2015 19:47:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[30-Jul-2015 21:17:25] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[31-Jul-2015 00:57:08] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[31-Jul-2015 08:25:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[31-Jul-2015 10:29:39] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[31-Jul-2015 11:40:13] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[31-Jul-2015 11:40:14] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[31-Jul-2015 12:57:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[31-Jul-2015 15:54:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[31-Jul-2015 15:54:27] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[31-Jul-2015 16:26:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[31-Jul-2015 17:06:23] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[31-Jul-2015 18:29:19] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[01-Aug-2015 19:33:07] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[01-Aug-2015 22:13:03] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/perfil.php on line 88
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[02-Aug-2015 09:20:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[02-Aug-2015 21:59:21] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[03-Aug-2015 08:20:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[03-Aug-2015 13:22:54] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[03-Aug-2015 13:57:11] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 13:57:11] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 13:57:11] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 13:57:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 13:57:11] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[03-Aug-2015 13:57:11] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[03-Aug-2015 13:57:11] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[03-Aug-2015 13:57:11] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[03-Aug-2015 14:52:26] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[03-Aug-2015 15:21:35] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[03-Aug-2015 17:08:51] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[03-Aug-2015 17:13:25] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 17:13:25] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 17:13:52] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 17:13:52] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 17:14:11] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[03-Aug-2015 17:14:46] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 17:14:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 17:30:13] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 3 given in /home/rbkne024/public_html/adi/atua_site_sql.php on line 26
+[03-Aug-2015 19:59:28] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 19:59:28] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 19:59:32] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 19:59:32] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 20:03:23] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 20:03:23] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 20:03:23] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 20:03:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[03-Aug-2015 20:03:23] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[03-Aug-2015 20:03:23] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[03-Aug-2015 20:03:23] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[03-Aug-2015 20:03:23] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[03-Aug-2015 21:35:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[04-Aug-2015 08:15:48] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[04-Aug-2015 13:09:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[04-Aug-2015 13:31:18] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[04-Aug-2015 13:56:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[04-Aug-2015 15:27:48] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[04-Aug-2015 15:27:48] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[04-Aug-2015 15:27:56] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[04-Aug-2015 15:27:56] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[04-Aug-2015 17:13:20] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[04-Aug-2015 17:22:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[05-Aug-2015 08:33:14] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[05-Aug-2015 09:32:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[05-Aug-2015 09:32:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[05-Aug-2015 12:16:07] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[05-Aug-2015 12:16:07] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[05-Aug-2015 12:16:10] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[05-Aug-2015 12:16:10] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[05-Aug-2015 13:10:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[05-Aug-2015 14:07:58] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[05-Aug-2015 14:07:58] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[05-Aug-2015 14:07:58] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[05-Aug-2015 14:07:58] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[05-Aug-2015 14:07:58] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[05-Aug-2015 14:07:58] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[05-Aug-2015 14:07:58] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[05-Aug-2015 14:07:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[05-Aug-2015 14:24:15] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[05-Aug-2015 16:32:11] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[05-Aug-2015 16:32:11] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[05-Aug-2015 17:06:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[05-Aug-2015 18:28:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[05-Aug-2015 19:38:13] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[05-Aug-2015 19:38:13] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 08:09:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[06-Aug-2015 09:10:03] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[06-Aug-2015 11:00:53] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[06-Aug-2015 11:06:37] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 11:06:37] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 13:55:30] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 13:55:30] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 13:59:31] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 13:59:31] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 14:03:31] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:03:31] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:03:31] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:03:31] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:03:31] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:03:31] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:03:31] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[06-Aug-2015 14:03:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[06-Aug-2015 14:06:22] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:06:22] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:06:22] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:06:22] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:06:22] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:06:22] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:06:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[06-Aug-2015 14:06:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[06-Aug-2015 14:08:08] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:08:08] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:08:08] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:08:08] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:08:08] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:08:08] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:08:08] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[06-Aug-2015 14:08:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[06-Aug-2015 14:09:07] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:09:07] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:09:07] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:09:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:09:07] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:09:07] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:09:07] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[06-Aug-2015 14:09:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[06-Aug-2015 14:10:50] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:10:50] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:10:50] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:10:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:10:50] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:10:50] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:10:50] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[06-Aug-2015 14:10:50] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[06-Aug-2015 14:11:42] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:11:42] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:11:42] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:11:42] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[06-Aug-2015 14:11:42] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:11:42] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[06-Aug-2015 14:11:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[06-Aug-2015 14:11:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[06-Aug-2015 14:19:15] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[06-Aug-2015 14:35:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[06-Aug-2015 15:49:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[06-Aug-2015 15:58:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[06-Aug-2015 16:39:32] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[06-Aug-2015 17:00:59] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 17:00:59] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[06-Aug-2015 17:09:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[06-Aug-2015 17:26:51] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[06-Aug-2015 17:26:51] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[06-Aug-2015 17:36:38] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[06-Aug-2015 18:44:42] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[06-Aug-2015 21:21:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/perfil.php on line 88
+[07-Aug-2015 06:46:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[07-Aug-2015 07:47:39] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 07:47:39] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 07:57:35] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 07:57:35] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 08:02:30] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 08:02:30] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 08:05:47] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:05:47] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:05:47] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:05:47] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:05:47] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[07-Aug-2015 08:05:47] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[07-Aug-2015 08:05:47] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[07-Aug-2015 08:05:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[07-Aug-2015 08:45:56] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:45:56] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:45:56] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:45:56] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 08:45:56] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[07-Aug-2015 08:45:56] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[07-Aug-2015 08:45:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[07-Aug-2015 08:45:56] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[07-Aug-2015 09:06:45] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 09:06:45] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 09:06:45] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 09:06:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[07-Aug-2015 09:06:45] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[07-Aug-2015 09:06:45] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[07-Aug-2015 09:06:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[07-Aug-2015 09:06:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[07-Aug-2015 09:12:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 09:12:44] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 09:16:53] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 09:16:53] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 09:18:19] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 32
+[07-Aug-2015 09:19:14] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 09:19:14] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 09:19:18] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 09:19:18] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 09:38:47] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 09:38:47] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 09:38:50] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 09:38:50] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 11:10:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[07-Aug-2015 13:40:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[07-Aug-2015 13:58:29] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[07-Aug-2015 13:58:29] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[07-Aug-2015 15:17:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[08-Aug-2015 09:42:48] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[08-Aug-2015 10:34:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[08-Aug-2015 18:55:14] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[09-Aug-2015 20:41:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[10-Aug-2015 06:12:04] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[10-Aug-2015 08:05:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[10-Aug-2015 11:10:50] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[10-Aug-2015 12:25:20] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[10-Aug-2015 12:27:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[10-Aug-2015 12:29:29] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[10-Aug-2015 12:50:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[10-Aug-2015 12:53:36] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[10-Aug-2015 13:47:32] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 3 given in /home/rbkne024/public_html/adi/atua_site_sql.php on line 26
+[10-Aug-2015 14:08:43] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[10-Aug-2015 14:08:43] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[10-Aug-2015 14:09:13] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[10-Aug-2015 14:30:15] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/location_new.php on line 63
+[10-Aug-2015 14:42:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[10-Aug-2015 17:02:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[10-Aug-2015 18:19:46] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[10-Aug-2015 18:19:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[10-Aug-2015 20:46:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[11-Aug-2015 06:10:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[11-Aug-2015 09:20:57] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[11-Aug-2015 09:20:57] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[11-Aug-2015 09:20:57] PHP Warning:  include(../conexao.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[11-Aug-2015 09:20:57] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../conexao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbkne024/public_html/adi/cidades.ajax.php on line 5
+[11-Aug-2015 09:20:57] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'rbkne024'@'localhost' (using password: NO) in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[11-Aug-2015 09:20:57] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/rbkne024/public_html/adi/cidades.ajax.php on line 7
+[11-Aug-2015 09:20:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/cidades.ajax.php on line 12
+[11-Aug-2015 09:20:57] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/rbkne024/public_html/adi/cidades.ajax.php on line 13
+[11-Aug-2015 10:12:59] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[11-Aug-2015 10:12:59] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[11-Aug-2015 11:12:27] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[11-Aug-2015 14:33:13] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[11-Aug-2015 15:21:25] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[11-Aug-2015 16:36:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[11-Aug-2015 19:15:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[11-Aug-2015 21:04:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[12-Aug-2015 06:20:00] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[12-Aug-2015 07:29:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[12-Aug-2015 08:03:29] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 3 given in /home/rbkne024/public_html/adi/atua_site_sql.php on line 26
+[12-Aug-2015 09:51:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[12-Aug-2015 09:52:00] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'zk10n546_mau'@'localhost' (using password: YES) in /home/rbkne024/public_html/adi/motor_xls_pedido.php on line 9
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[12-Aug-2015 10:19:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[12-Aug-2015 11:05:35] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[12-Aug-2015 12:47:56] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[12-Aug-2015 13:15:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[12-Aug-2015 14:03:19] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[12-Aug-2015 15:08:45] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95
+[12-Aug-2015 15:12:37] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[12-Aug-2015 15:16:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/home.php on line 94
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 167
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 168
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 175
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 176
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 274
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 275
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 277
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/rbkne024/public_html/adi/pedido_2.php on line 282
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 90
+[12-Aug-2015 15:56:46] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/rbkne024/public_html/adi/conexao.php on line 95

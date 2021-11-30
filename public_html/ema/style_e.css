@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	
+	}
+html, body {
+	background-color:#000000;
+}
+
+
+#conta {
+	position:relative;
+	margin:auto;
+	width:800px;
+	
+	}
+#login {
+	position: absolute;
+	display: block;
+	left: 500px;
+	top: 0;
+	width: 300px;
+	height: 300px;
+	margin-top: 100px;
+	background-color: #FFF;
+	
+}
+.label {
+	display:block;
+	width:165px;		
+	margin:10px 10px 5px 19px;	
+	background-color:#FFF;
+	font-weight:bold;
+	
+	}
+
+.enviar {
+	background-color:#FFF;
+	border-radius:0px 0px 6px 6px;
+	text-align:center;}
+input {
+	background-color:#FFF;
+	vertical-align:middle;
+	padding:2px;
+	margin-left:19px;
+	
+	
+	
+	}
+
+.titulo {
+	color:#FFF;
+	font-size:12pt;
+	margin-left:19px;
+	margin-bottom:20px;
+	margin-top:30px
+	}
+	
+.login {
+	padding:10px 10px 10px 10px;
+	margin:20px 0 0 19px;
+	background-color:#06F;
+	color:#FFF;
+	font-weight:bold;
+	border-radius:4px;
+	border:none;}
+	
+.login:hover {
+	padding:10px 10px 10px 10px;
+	margin:20px 0 0 19px;
+	background-color:#F30;
+	color:#FFF;
+	font-weight:bold;
+	border-radius:4px;
+	border:none;}
+	
+	
+#cs_01 {
+	position:absolute;
+	left:0;
+	top:0;
+	margin-top:100px;
+	background-color:#FFF;
+	background-color:#FFF;
+	height:300px;
+	text-align:center;
+	color:#333;
+}
+#titulo {
+	position:absolute;
+	left:0;
+	top:10px;
+	width:800px;
+	height:45px;
+	
+	font-size:22pt;
+	vertical-align:middle;
+	text-align:center;
+	padding-top:5px;
+	color:#FFF;
+}
+#logo {
+	position: absolute;
+	left: 669px;
+	top: 117px;
+	width: 114px;
+	height: 31px;
+}
+#footer {
+	position:absolute;
+	left:0;
+	top:457px;
+	width:800px;
+	height:91px;
+	text-align:center;
+	vertical-align:middle;
+	color:#999;
+}
+#sena {
+	position: absolute;
+	left: 600px;
+	top: 285px;
+	width: 132px;
+	height: 35px;
+	background-color: #CCC;
+	border-radius: 4px;
+}
+#back {
+	position: absolute;
+	left: 600px;
+	top: 360px;
+	width: 160px;
+	height: 17px;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	
+}
+
+#back a {
+	color:#000;
+	text-align:center;
+	text-decoration:none;
+	}

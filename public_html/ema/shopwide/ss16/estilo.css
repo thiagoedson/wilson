@@ -1,0 +1,23 @@
+
+.menu a {
+	padding: 14px 10px;
+	display: block;
+	color: #000000;
+	width: 144px;
+	text-decoration: none;
+	font-weight: bold;
+	background: url(imagens/button.gif) no-repeat center center;
+}
+#resultado em {
+	background: url(imagens/hover.png) no-repeat;
+	width: 180px;
+	height: 45px;
+	position: absolute;
+	top: 85px;
+	left: 15px;
+	text-align: center;
+	padding: 20px 12px 10px;
+	font-style: normal;
+	z-index: 2;
+	display: none;
+}

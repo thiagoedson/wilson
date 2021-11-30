@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+*,html,body{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	font-size:10pt;
+}
+#painel_botton {
+	position:fixed;	
+	top:0;
+	width:100%;
+	height:55px;
+	padding-top:5px;	
+	color:#FFF;}
+.email {
+	display:block;
+	width:100px;	
+	float:right;
+	margin-right:105px;
+}
+
+#conta {
+	position:relative;
+	margin:auto;
+	width:950px;
+}
+
+body {
+	background-color: #ccc;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_banner {
+	position:absolute;
+	left:0;
+	top:0;
+	width:950px;
+	height:200px;
+	background-image: url(imagens/top_banner.png);
+}
+#sair {
+	position:absolute;
+	left:692px;
+	top:160px;
+	width:209px;
+	height:21px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;	
+	background-color: #000000;
+	border-radius:2px;
+	
+}
+#busca {
+	position:absolute;
+	left:0;
+	top:200px;
+	width:609px;
+	height:85px;
+	padding:20px;
+	background-color: #0099FF;
+}
+#result {
+	position:absolute;
+	left:0;
+	top:400px;
+	width:950px;
+	height:auto;
+}
+
+label {
+		position:relative;
+		background-color:#FFF;
+		width:178px;
+		height:180px;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 8pt;
+		color:#000;
+		text-align: left;
+		vertical-align: bottom;
+		float: left;		
+		margin-bottom: 0px;		
+		padding-top: 8px;
+		padding-right: 5px;
+		padding-bottom: 0px;
+		padding-left: 5px;	
+		display:block;
+		border-style:outset;
+		border-width:1px;
+		border-color:#CCC;
+		margin-left:0px;
+		}
+label:hover {
+	border-style:inset;
+	border-color:#9FF;}
+.lang {	
+		font-size:8pt;
+		text-align:right;
+		display:block;
+		color:#00F;
+		margin-left:0;
+		}
+a {
+	text-decoration:none;
+	}
+#painel_04 {
+	position:absolute;
+	left:650px;
+	top:200px;
+	width:300px;
+	height:120px;
+	background-color: #FFCC00;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:6px;
+}
+
+#mask {
+
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+
+}
+
+
+
+#boxes #dialog {
+	width:700px;
+	height:230px;
+	padding:10px;
+	background-color:#999;
+	border-radius:20px;
+	left:0;
+}
+
+#boxes #dialog_dp {
+	width:700px;
+	height:auto;	
+	background-color:#FFF;
+	border-radius:20px;
+	left:0;
+	padding-left:50px 0 50px;
+}
+
+
+
+#boxes #dialog1 {
+
+  width:375px;
+  height:203px;
+  border-radius:20px;
+  left:0;
+
+}
+
+
+
+#dialog1 .d-header {
+
+  background:url(login-header.png) no-repeat 0 0 transparent; 
+
+  width:375px; 
+
+  height:150px;
+
+}
+
+
+
+
+
+
+
+#dialog1 .d-blank {
+
+  float:left;
+
+  background:url(login-blank.png) no-repeat 0 0 transparent; 
+
+  width:267px; 
+
+  height:53px;
+
+}
+
+
+
+#dialog1 .d-login {
+
+  float:left;
+  width:108px; 
+  height:53px;
+
+}
+
+.informa {
+	color:#666;
+	font-size:8pt;	
+	}
+.segmenta {
+	margin:auto;
+	display:block;
+	width:280px;
+	height:20px;	
+	background-color:#FFF;
+	color:#999;
+	padding:2px;	
+	border-style:outset;
+	border-width:1px;}
+
+
+#boxes #dialog2 {
+	width:300px;
+	height:150px;
+	background-color: #FFF;
+	background-image: url(notice.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	border-radius:20px;
+	left:0;
+}
+
+.close{display:block;
+       padding-left:10px;
+       text-align:right;
+}
+
+select, option, input {
+	color:#000;}
+#info_cliente {
+	position:absolute;
+	left:0;
+	top:330px;
+	width:930px;
+	height:25px;
+	z-index:10000;
+	padding: 10px;
+	background-repeat: repeat-x;
+	background-color: #333333;
+}
+
+.msgalert {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16pt;
+	background:#F00;
+	padding:3px;
+	margin-top:10px;}
+select, option {
+	border:0;}
+
+.link3 {
+	display:block;	
+	padding:2px;
+	height:20px;
+	background-color:#090;
+	border-radius:3px;
+	border-style:outset;
+	border-width:1px;
+	width:280px;
+	margin:auto;
+		}
+.link4 {
+	display:block;
+	width:280px;
+	height:20px;
+	margin:auto;	
+	padding:2px;
+	background-color:#03F;
+	border-radius:3px;
+	border-style:outset;
+	border-width:1px;
+	}
