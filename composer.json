@@ -1,0 +1,13 @@
+{
+    "name": "thiag/wilson",
+    "authors": [
+        {
+            "name": "Thiago Edson",
+            "email": "thiago.cassone@gmail.com"
+        }
+    ],
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
