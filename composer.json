@@ -1,13 +1,21 @@
 {
     "name": "thiag/wilson",
+    "version": "4.9.55",
     "authors": [
         {
             "name": "Thiago Edson",
             "email": "thiago.cassone@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "thingengineer/mysqli-database-class": "dev-master",
+        "phpmailer/phpmailer": "^6.1.8",
+        "phpoffice/phpspreadsheet": "^1.8.2",
         "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "classmap": ["src"]
     }
 }

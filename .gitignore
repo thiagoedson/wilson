@@ -33,3 +33,4 @@ packages/
 
 /vendor/
 /.idea/
+/node_modules/*
