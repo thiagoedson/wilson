@@ -34,3 +34,7 @@ packages/
 /vendor/
 /.idea/
 /node_modules/*
+/.env
+/.idea/wilson.iml
+/composer.lock
+/package-lock.json

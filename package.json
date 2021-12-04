@@ -47,6 +47,7 @@
     "jquery-ui": "^1.12.1",
     "jquery-ui-dist": "^1.12.1",
     "jquery-validation": "^1.19.3",
+    "jquery.easing": "^1.4.1",
     "jquery.redirect": "^1.1.4",
     "library-grunt": "^0.6.4",
     "load-grunt-tasks": "^5.1.0",

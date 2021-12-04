@@ -45,8 +45,7 @@ module.exports = function (grunt) {
                             'node_modules/trumbowyg/dist/trumbowyg.min.js',
                             'node_modules/trumbowyg/dist/langs/pt_br.min.js',
                             'node_modules/moment/min/moment.min.js',
-                            'node_modules/iframe-resizer/js/iframeResizer.min.js',
-                            'node_modules/iframe-resizer/js/iframeResizer.contentWindow.min.js',
+
                             'node_modules/intro.js/minified/intro.min.js',
                             'node_modules/jquery-toast-plugin/dist/jquery.toast.min.js',
                             'node_modules/uppy/dist/uppy.min.js',
@@ -57,13 +56,14 @@ module.exports = function (grunt) {
                             'node_modules/jquery-validation/dist/localization/messages_pt_BR.min.js',
                             'node_modules/countup.js/dist/countUp.umd.js',
                             'node_modules/bootstrap4-toggle/js/bootstrap4-toggle.min.js',
-                            'node_modules/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js',
+
                             'node_modules/moment/locale/pt-br.js',
                             'node_modules/aos/dist/aos.js',
                             'node_modules/sweetalert2/dist/sweetalert2.min.js',
 
                             'node_modules/fullcalendar/dist/fullcalendar.min.js',
                             'node_modules/fullcalendar/dist/locale/pt-br.js',
+                            'node_modules/jquery.easing/jquery.easing.min.js',
 
                             'include/app.js',
 
@@ -94,7 +94,6 @@ module.exports = function (grunt) {
 
 
                         'node_modules/bootstrap4-toggle/css/bootstrap4-toggle.min.css',
-                        'node_modules/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.min.css',
                         'node_modules/aos/dist/aos.css',
                         'node_modules/sweetalert2/dist/sweetalert2.min.css',
 
@@ -128,7 +127,7 @@ module.exports = function (grunt) {
                         expand: true,
                         flatten: true,
                         src: ['node_modules/@fortawesome/fontawesome-free/webfonts/**'],
-                        dest: 'public_html/php/webfonts/',
+                        dest: 'public_html/webfonts/',
                         filter: 'isFile'
                     },
                 ],
