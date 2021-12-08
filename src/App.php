@@ -253,6 +253,12 @@ class App
                         </div>
                     </div>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="../adm/">
+                        <i class="fas fa-upload"></i>
+                        <span>Importador</span></a>
+                </li>
                 <!-- Divider -->
                 <hr class="sidebar-divider">
                 <?php
@@ -272,7 +278,7 @@ class App
                     <span>Minha conta</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="../minhaconta/pedidos.php">
                     <i class="fas fa-scroll"></i>
                     <span>Meus pedidos</span></a>
             </li>
@@ -280,14 +286,14 @@ class App
             <hr class="sidebar-divider d-none d-md-block">
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="../loja/?q=pronta_entrega">
                     <i class="fas fa-shopping-bag"></i>
                     <span>Pronta-entrega</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="../loja/?q=pronta_entrega">
                     <i class="fab fa-shopify"></i>
-                    <span>Pré-venda</span></a>
+                    <span>Pré-venda FW22</span></a>
             </li>
 
             <!-- Nav Item - Tables -->

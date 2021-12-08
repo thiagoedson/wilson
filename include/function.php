@@ -1,5 +1,7 @@
 <?php
 
+use Pedido\Pedido;
+use Produto\Produto;
 use Usuario\Usuario;
 
 function autenticacaoSISTEMA($dados)
@@ -9,8 +11,8 @@ function autenticacaoSISTEMA($dados)
     ];
     try {
 
-        $usuario           = new Usuario();
-        $retorno['consulta'] =   $usuario->Autenticacao($dados["fm_login"], $dados["fm_senha"]);
+        $usuario             = new Usuario();
+        $retorno['consulta'] = $usuario->Autenticacao($dados["fm_login"], $dados["fm_senha"]);
         //print_r($retorno);
         //var_dump($retorno['status']);
         // exit;
@@ -28,7 +30,6 @@ function autenticacaoSISTEMA($dados)
         return $retorno;
     }
 }
-
 
 function higienizaCPF($cpf)
 {
@@ -216,6 +217,150 @@ function consultaCEP($dados)
         $retorno['html'] = trim(ob_get_contents());
         ob_end_clean();
         #endregion
+
+        return $retorno;
+    } catch (Exception $e) {
+        $retorno['error'] = $e;
+        return $retorno;
+    }
+}
+
+function listaPedidosADISUL($dados)
+{
+    $retorno = [
+        'dados' => $dados
+    ];
+    try {
+
+        $pedidos = new Pedido();
+        $retorno = $pedidos->ListaPedidos($dados, getUsuarioSessao());
+
+        return $retorno;
+    } catch (Exception $e) {
+        $retorno['error'] = $e;
+        return $retorno;
+    }
+}
+
+function carregaProdutosADISUL($dados)
+{
+    $retorno = [
+        'dados' => $dados
+    ];
+    try {
+
+
+        $produtos = new Produto();
+        $produtos->setTipo($dados['tipo']);
+
+        ob_start();
+
+        foreach ($produtos->ListarProdutos($dados) as $produto_row) {
+
+            $produto = new Produto($produto_row['id']);
+            ?>
+
+            <?php
+            echo $produto->Card();
+            ?>
+
+        <?php
+        }
+
+        $retorno['html'] = trim(ob_get_contents());
+        ob_end_clean();
+
+
+        return $retorno;
+    } catch (Exception $e) {
+        $retorno['error'] = $e;
+        return $retorno;
+    }
+}
+
+function formataValorBR($valor)
+{
+    return number_format($valor, 2, ',', '.');
+}
+
+function moeda($get_valor)
+{
+
+    $get_valor = trim($get_valor);
+
+    $source  = array('.', ',');
+    $replace = array('', '.');
+   // $valor   = str_replace($source, $replace, $get_valor); //remove os pontos e substitui a virgula pelo ponto
+
+    return number_format($get_valor, 2,'.',''); //retorna o valor formatado para gravar no banco
+}
+
+function uploadTabelaADISUL($post, $file)
+{
+    $retorno = [
+        'dados' => $post,
+        'file'  => $file,
+        'error' => 'Nenhum arquivo foi enviado.'
+    ];
+    try {
+
+        if (empty($file['arquivo'])) {
+            echo json_encode($retorno);
+            exit;
+        }
+
+        $arquivo   = $file['arquivo'];
+        $filenames = $arquivo['name'];
+        $ext       = explode('.', basename($filenames));
+        $target    = "./doc_upload/" . md5(uniqid()) . "." . array_pop($ext);
+        move_uploaded_file($arquivo['tmp_name'], $target);
+
+        $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xls();
+
+        $ler  = $reader->load($target);
+        $data = $ler->getActiveSheet()->toArray();
+
+        if (count($data)) {
+
+            $produtos = [];
+            foreach ($data as $key => $row) {
+
+                /**
+                 * Remover as linhas inválidas
+                 **/
+                if (empty($row[1])) {
+                    unset($data[$key]);
+                } else {
+
+                    $regex = explode(' ', $row[1]);
+
+                    $produto = new Produto();
+                    //$produto->setId($key);
+                    $produto->setTipo($post['tipo']);
+                    $produto->setCodigoReferencia($row[0]);
+                    $produto->setDescricao($row[1]);
+                    $produto->setCodigoFamilia($regex[0]);
+                    $produto->setNome($regex[0] . ' ' . $regex[1] . ' ' . $regex[2]. ' ' . $regex[3]);
+                    $produto->setValorVenda(moeda($row[4]));
+                    $produto->setValorCusto(moeda($row[3]));
+                    $produto->setQuantidade($row[2]);
+                    $produto->setTamanhos(array_key_last($row));
+                    $produto->setUsuarioImportacao(getUsuarioSessao());
+                    $produto->setDatahora(date('Y-m-d H:i:s'));
+                    $produto->setLote($target);
+                    $produto->setDivisao(substr($row[0], 0, 3));
+                    $produto->Salvar();
+
+                    $produtos[] = $produto;
+                }
+
+            }
+
+            $retorno['produtos'] = $produtos;
+
+        }
+
+        $retorno['data'] = $data;
 
         return $retorno;
     } catch (Exception $e) {

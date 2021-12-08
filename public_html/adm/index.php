@@ -13,8 +13,8 @@ $tela   = $modulo->Tela();
 $usuario_page = new Usuario(getUsuarioSessao());
 
 ?>
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -81,70 +81,30 @@ $usuario_page = new Usuario(getUsuarioSessao());
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
                         <div class="card card-body shadow-sm">
-                            <h4>
-                                <?php echo $usuario_page->getNome();?>
-                            </h4>
-                            <table>
-                                <tr>
-                                    <th>Login</th>
-                                    <td><?php echo $usuario_page->getLogin();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Celular 1</th>
-                                    <td><?php echo $usuario_page->getCelular1();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Celular 2</th>
-                                    <td><?php echo $usuario_page->getCelular2();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Telefone</th>
-                                    <td><?php echo $usuario_page->getTelefone();?></td>
-                                </tr>
-                                <tr>
-                                    <th>E-mail</th>
-                                    <td><?php echo $usuario_page->getEmail();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Grupo</th>
-                                    <td><?php echo $usuario_page->getGrupoNome();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Representação</th>
-                                    <td><?php echo $usuario_page->getReprese();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Cidade</th>
-                                    <td><?php echo $usuario_page->getCidade();?></td>
-                                </tr>
-                                <tr>
-                                    <th>UF</th>
-                                    <td><?php echo $usuario_page->getUF();?></td>
-                                </tr>
-                            </table>
-                            <br>
-                            <div class="row">
-                                <div class="col-6">
-                                    <button class="btn btn-warning shadow-sm">
-                                        <i class="fas fa-key"></i>
-                                        Trocar senha
-                                    </button>
-                                </div>
-                            </div>
 
+                            <div class="form-group">
+                                <label for="tipo_tabela">
+                                    Tipo
+                                </label>
+                                <select class="form-control" id="tipo_tabela" name="tipo_tabela">
+                                    <option value="pronta_entrega">Pronta entrega</option>
+                                    <option value="prevendass22">Pré-venda SS22</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="input-id">
+                                    <i class="fas fa-paperclip"></i>
+                                    Anexo
+                                </label>
+                                <input id="input-id" name="arquivo" type="file" class="file" data-preview-file-type="text">
+                                <div id="errorBlock" class="help-block"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card card-body shadow-sm">
-                            <h4>
-                                Minha loja
-                            </h4>
-                            <p>
-                                <?php echo $usuario_page->getLoja();?>
-                            </p>
-                        </div>
+                    <div class="col-sm-4">
+                        <div class="card card-body shadow-sm" id="importador_feed"></div>
                     </div>
                 </div>
 
@@ -192,5 +152,28 @@ $usuario_page = new Usuario(getUsuarioSessao());
     </div>
 </div>
 </body>
-<script src="../assets/appv2.min.js?v=<?php echo $app->getVersao(); ?>"></script>
+<script src="../assets/appv2.min.js?v=<?php echo $app->getVersao(); ?>" type="text/javascript"></script>
+<script>
+    $("#input-id").fileinput({
+        language: "pt-BR",
+        theme: "explorer",
+        uploadUrl: "consulta.php?ACAO=UploadFileNovo",
+        uploadAsync: true,
+        previewFileType: 'any',
+        minFileCount: 0,
+        maxFileCount: 1,
+        allowedFileExtensions: ["txt", "pdf", "doc", "text", "xlsx", "rar", "zip", "oct", "docx", "xls", "cot", "COT"],
+        maxFileSize: 250000,
+        uploadExtraData: function (previewId, index) {
+
+            let tipo = $("#tipo_tabela").val();
+            let info = {
+                tipo: tipo,
+                codigo_grupo: "",
+                ACAO: "UploadFileNovo"
+            };
+            return info;
+        }
+    });
+</script>
 </html>

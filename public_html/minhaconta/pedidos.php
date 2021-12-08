@@ -81,71 +81,49 @@ $usuario_page = new Usuario(getUsuarioSessao());
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <div class="card card-body shadow-sm">
                             <h4>
-                                <?php echo $usuario_page->getNome();?>
+                                Pedidos
                             </h4>
-                            <table>
-                                <tr>
-                                    <th>Login</th>
-                                    <td><?php echo $usuario_page->getLogin();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Celular 1</th>
-                                    <td><?php echo $usuario_page->getCelular1();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Celular 2</th>
-                                    <td><?php echo $usuario_page->getCelular2();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Telefone</th>
-                                    <td><?php echo $usuario_page->getTelefone();?></td>
-                                </tr>
-                                <tr>
-                                    <th>E-mail</th>
-                                    <td><?php echo $usuario_page->getEmail();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Grupo</th>
-                                    <td><?php echo $usuario_page->getGrupoNome();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Representação</th>
-                                    <td><?php echo $usuario_page->getReprese();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Cidade</th>
-                                    <td><?php echo $usuario_page->getCidade();?></td>
-                                </tr>
-                                <tr>
-                                    <th>UF</th>
-                                    <td><?php echo $usuario_page->getUF();?></td>
-                                </tr>
-                            </table>
-                            <br>
-                            <div class="row">
-                                <div class="col-6">
-                                    <button class="btn btn-warning shadow-sm">
-                                        <i class="fas fa-key"></i>
-                                        Trocar senha
-                                    </button>
-                                </div>
+                            <div id="toolbar">
+
                             </div>
+
+                            <table
+                                    id="table"
+                                    data-row-style="rowStyle"
+                                    data-search="true"
+                                    data-toolbar="#toolbar"
+                                    class="table table-sm shadow-sm"
+                                    data-filter-control="true"
+                                    data-show-search-button="true">
+                                <thead class="thead-re">
+                                <tr>
+
+                                    <th data-field="id" data-title="id" data-editable="false" data-visible="false">
+                                        id
+                                    </th>
+                                    <th data-field="npedido" data-title="Nº pedido" data-editable="false" data-visible="true">
+                                        Nº pedido
+                                    </th>
+                                    <th data-field="total" data-editable="false" data-formatter="NumFormatter" data-sortable="true">
+                                        Total
+                                    </th>
+                                    <th data-field="data_1" data-editable="false" data-formatter="dateSorter">
+                                        Data
+                                    </th>
+                                    <th data-field="status" data-editable="false">
+                                        Status
+                                    </th>
+
+                                </tr>
+                                </thead>
+                            </table>
 
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card card-body shadow-sm">
-                            <h4>
-                                Minha loja
-                            </h4>
-                            <p>
-                                <?php echo $usuario_page->getLoja();?>
-                            </p>
-                        </div>
-                    </div>
+
                 </div>
 
 
@@ -193,4 +171,87 @@ $usuario_page = new Usuario(getUsuarioSessao());
 </div>
 </body>
 <script src="../assets/appv2.min.js?v=<?php echo $app->getVersao(); ?>"></script>
+<script>
+    let $table = $('#table');
+    $(document).ready(function () {
+
+
+
+        $table.bootstrapTable({
+            url: `consulta.php?ACAO=ListaPedidos`,
+            method: 'get',
+            queryParamsType: 'Else',
+            dataType: 'json',
+            sidePagination : 'server',
+            pagination: true,
+            locale: 'pt-BR',
+            showColumns: true,
+            search: true,
+            showRefresh: true,
+            showExport: false,
+            exportDataType: 'all'
+        });
+
+
+    });
+
+
+    function linkAcesso(row, index) {
+        try {
+
+            return '<a href="orcamento.php?id=' + index.id + '" class="btn btn-dark btn-sm"><i class="fas fa-sign-in-alt"></i></a>';
+
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+    function rowStyle(row, index) {
+
+        if (row.origem == "calculadora") {
+            return {
+                classes: 'table-warning'
+            }
+        }
+
+
+        return {
+            classes: ''
+
+        }
+
+    }
+
+    function datesSorter(value, row, index) {
+
+        if(value == null){
+
+            return null;
+
+        } else {
+            return moment(new Date(value)).format('DD/MM/YYYY HH:mm:ss');
+        }
+    }
+
+    function dateSorter(value, row, index) {
+
+
+        if(moment(value).isValid()){
+
+            return  moment(value).format('DD/MM/YYYY');
+        } else {
+            return  null;
+        }
+
+
+    }
+
+    function NumFormatter (data) {
+        return parseFloat(data).toLocaleString(undefined, {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
+    }
+
+</script>
 </html>

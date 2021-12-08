@@ -1,17 +1,19 @@
 <?php
 
 use App\App;
+use Loja\Loja;
+use Produto\Produto;
 use Usuario\Usuario;
 
 session_start();
 require_once '../../include/info.php';
 
-$app = new App();
+$app    = new App();
 $modulo = $app->Modulo();
 $tela   = $modulo->Tela();
 
-$usuario_page = new Usuario(getUsuarioSessao());
-
+$loja = new Loja();
+$loja->setColecao($_GET['q']);
 ?>
 <!doctype html>
 <html>
@@ -81,69 +83,46 @@ $usuario_page = new Usuario(getUsuarioSessao());
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6">
+
+                    <div class="col-sm-9">
                         <div class="card card-body shadow-sm">
                             <h4>
-                                <?php echo $usuario_page->getNome();?>
-                            </h4>
-                            <table>
-                                <tr>
-                                    <th>Login</th>
-                                    <td><?php echo $usuario_page->getLogin();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Celular 1</th>
-                                    <td><?php echo $usuario_page->getCelular1();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Celular 2</th>
-                                    <td><?php echo $usuario_page->getCelular2();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Telefone</th>
-                                    <td><?php echo $usuario_page->getTelefone();?></td>
-                                </tr>
-                                <tr>
-                                    <th>E-mail</th>
-                                    <td><?php echo $usuario_page->getEmail();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Grupo</th>
-                                    <td><?php echo $usuario_page->getGrupoNome();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Representação</th>
-                                    <td><?php echo $usuario_page->getReprese();?></td>
-                                </tr>
-                                <tr>
-                                    <th>Cidade</th>
-                                    <td><?php echo $usuario_page->getCidade();?></td>
-                                </tr>
-                                <tr>
-                                    <th>UF</th>
-                                    <td><?php echo $usuario_page->getUF();?></td>
-                                </tr>
-                            </table>
-                            <br>
-                            <div class="row">
-                                <div class="col-6">
-                                    <button class="btn btn-warning shadow-sm">
-                                        <i class="fas fa-key"></i>
-                                        Trocar senha
-                                    </button>
-                                </div>
-                            </div>
+                                <i class="fas fa-cart-plus text-success"></i>
 
+                                <?php echo $loja->getNome(); ?>
+                            </h4>
+                            <p class="text-primary">
+                                <?php echo $loja->getDescricao(); ?> (<?php echo $loja->getTipo(); ?>)
+                            </p>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card card-body shadow-sm">
-                            <h4>
-                                Minha loja
-                            </h4>
-                            <p>
-                                <?php echo $usuario_page->getLoja();?>
-                            </p>
+
+                    <div class="col-sm-3">
+                        <a href="../loja/carrinho.php" class="text-decoration-none">
+                            <div class="card card-body bg-warning shadow-sm text-dark text-center">
+                                <h4>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Carrinho
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card card-body mt-4 shadow-sm">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="procura">
+                                        </label>
+                                        <input type="text" name="procura" id="procura" class="form-control" placeholder="Procurar">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" id="load_produto"></div>
                         </div>
                     </div>
                 </div>
@@ -183,7 +162,7 @@ $usuario_page = new Usuario(getUsuarioSessao());
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Tem certeza que deseja sair ? </div>
+            <div class="modal-body">Tem certeza que deseja sair ?</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Voltar</button>
                 <a class="btn btn-primary" href="../app/sair.php">Sair</a>
@@ -193,4 +172,108 @@ $usuario_page = new Usuario(getUsuarioSessao());
 </div>
 </body>
 <script src="../assets/appv2.min.js?v=<?php echo $app->getVersao(); ?>"></script>
+<script>
+    let $table = $('#table');
+    $(document).ready(function () {
+
+
+        CarregaProdutos();
+
+        $("#procura").on('focusout',function (e){
+            CarregaProdutos(this.value);
+        });
+
+    });
+
+
+    function linkAcesso(row, index) {
+        try {
+
+            return '<a href="orcamento.php?id=' + index.id + '" class="btn btn-dark btn-sm"><i class="fas fa-sign-in-alt"></i></a>';
+
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+    function rowStyle(row, index) {
+
+        if (row.origem == "calculadora") {
+            return {
+                classes: 'table-warning'
+            }
+        }
+
+
+        return {
+            classes: ''
+
+        }
+
+    }
+
+    function datesSorter(value, row, index) {
+
+        if (value == null) {
+
+            return null;
+
+        } else {
+            return moment(new Date(value)).format('DD/MM/YYYY HH:mm:ss');
+        }
+    }
+
+    function dateSorter(value, row, index) {
+
+
+        if (moment(value).isValid()) {
+
+            return moment(value).format('DD/MM/YYYY');
+        } else {
+            return null;
+        }
+
+
+    }
+
+    function NumFormatter(data) {
+        return parseFloat(data).toLocaleString(undefined, {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
+    }
+
+    function CarregaProdutos(procura) {
+        try {
+
+            $.ajax({
+                url: 'consulta.php?ACAO=CarregaProdutos',
+                type: 'post',
+                data: {
+                    ACAO: 'CarregaProdutos',
+                    procura: procura,
+                    tipo :'<?php echo $_GET['q'];?>'
+                },
+                dataType: 'json',
+
+                success: function (response) {
+
+                    return $("#load_produto").html(response.html);
+
+                },
+                error: function (e) {
+
+
+                },
+                complete: function (response) {
+                    return $("#load_produto").html(response.html);
+                }
+            });
+
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+</script>
 </html>
